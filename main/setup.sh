@@ -6,7 +6,7 @@ sudo apt update && sudo apt install -y vim git curl zsh # Add more packages as n
 DOTFILES_DIR=~/dotfiles
 if [ ! -d "$DOTFILES_DIR" ]; then
   echo "Cloning dotfiles repository..."
-  git clone https://github.com/yourusername/dotfiles.git "$DOTFILES_DIR"
+  git clone https://github.com/mikecarr/simple-config.git "$DOTFILES_DIR"
 fi
 
 # Backup existing dotfiles and create symlinks
