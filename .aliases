@@ -1,0 +1,20 @@
+
+
+alias ll='ls -alh'
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en0"
+
+
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec ${SHELL} -l"
+
+# Print each PATH entry on a separate line
+alias path='echo -e ${PATH//:/\\n}'
+
+alias openports="sudo lsof -PiTCP -sTCP:LISTEN"
+
+alias gitd="GIT_TRACE=true GIT_CURL_VERBOSE=true  GIT_SSH_COMMAND='ssh -vvv' git"
+
+
